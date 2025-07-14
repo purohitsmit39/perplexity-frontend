@@ -73,7 +73,7 @@ const Home = () => {
         ]);
 
         // Create URL with checkpoint ID if it exists
-        let url = `https://perplexity-latest-4la4.onrender.com${encodeURIComponent(
+        let url = `http://127.0.0.1:5000${encodeURIComponent(
           userInput
         )}`;
         if (checkpointId) {
